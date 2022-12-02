@@ -1,6 +1,6 @@
 
 def part_one():
-    with open("input", "r") as input_file:
+    with open("Day1/input", "r") as input_file:
         current_calories = 0
         most_calories = 0
         for line in input_file:
@@ -14,7 +14,7 @@ def part_one():
 
 def part_two():
     calorie_list = []
-    with open("input", "r") as input_file:
+    with open("Day1/input", "r") as input_file:
         current_calories = 0
         for line in input_file:
             if line == "\n":
